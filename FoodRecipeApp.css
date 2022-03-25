@@ -1,0 +1,28 @@
+body {
+  font-weight: 300;
+  font-size: 1.05rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  text-align: center;
+}
+.cardcontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.moviecard {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+}
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  outline: 0;
+  font-size: 1.05rem;
+}
+.text {
+  opacity: 0.8;
+}
+.title {
+  font-size: 2rem;
+}
