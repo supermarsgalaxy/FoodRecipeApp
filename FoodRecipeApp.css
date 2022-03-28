@@ -12,10 +12,11 @@
 body {
   font-weight: 300;
   font-size: 1.05rem;
-  font-family: "Poppins", sans-serif;
   line-height: 1.6;
+  font-family: "Poppins", sans-serif;
 }
 
+/*  */
 .btn {
   font-family: inherit;
   cursor: pointer;
@@ -30,6 +31,7 @@ body {
   margin-bottom: 1rem;
 }
 
+/*  */
 .container {
   min-height: 100vh;
 }
@@ -47,7 +49,7 @@ body {
   font-size: 1rem;
 }
 .meal-search-box {
-  margin: 1.2rem;
+  margin: 1.2rem 0;
   display: flex;
   align-items: stretch;
 }
@@ -87,7 +89,7 @@ body {
   background: var(--tenne-tawny-dark);
 }
 .meal-result {
-  margin: 2.4rem 0;
+  margin-top: 4rem;
 }
 #meal {
   margin: 2.4rem 0;
@@ -136,6 +138,8 @@ body {
 .recipe-btn:hover {
   background: var(--tenne-tawny-dark);
 }
+
+/* meal details */
 .meal-details {
   position: fixed;
   top: 50%;
@@ -169,6 +173,7 @@ body {
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
 }
+
 /* js related */
 .showRecipe {
   display: block;
